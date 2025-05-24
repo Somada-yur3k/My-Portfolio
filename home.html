@@ -27,7 +27,7 @@
   </div>
   <header
     class="w-full sticky top-0 z-50 backdrop-blur-xl supports-[backdrop-filter]:bg-background/80 border-b border-gray-900  shadow-lg shadow-blue-500/5">
-    <nav class="bg-[#0d041686] ">
+    <nav class="bg-[#0d041686]">
       <div
         class="   flex flex-wrap items-center justify-between mx-auto p-2 ml-2 mr-2 sm:ml-6 sm:mr-5 md:ml-10 md:mr-10 lg:ml-20 lg:mr-20 xl:ml-40 xl:mr-40">
         <a href="#home"
@@ -108,34 +108,37 @@
   </header>
   <!--Landing Page-->
   <section id="home" class=" p-5 md:p-10 lg:p-20 xl:p-40 w-screen h-screen flex items-center justify-center ">
-    <div
-      class="flex flex-col font-medium items-center justify-center sm:p-10 lg:p-20 xl:p-40 sm:scale-100 lg:scale-125 xl:scale-150 ">
-      <h1 class=" text-4xl font-bold text-center  text-white mb-4">Hi! my name is <span class="text-[#2f4eff]"> Eurika
+    <div class="flex flex-col font-medium items-center justify-center sm:p-10 lg:p-20 xl:p-40  ">
+      <h1 id="simpleUsage" class=" text-4xl font-bold text-center  text-white mb-4">Hi! my name is <span
+          class="text-[#2f4eff]"> Eurika
           Adamos
         </span></h1>
       <div id="typing-container" class="flex gap-2 justify-center items-center mb-4 s">
         <h2 class="text-3xl  text-center text-white "> I'm a </h2>
-        <span id="typing" class=" text-3xl text-[#2f4eff] p-1 text-center "> Web Developer </span>
+        <span id="typing" class=" text-3xl text-[#2f4eff] p-1 text-center "></span>
       </div>
       <div class="flex justify-center items-center mb-4 sm:w-[80%] lg:w-[70%] xl:w-[60%]">
-        <p class="text-gray-400 text-center">I am a passionate web developer with a strong interest in creating
-          user-friendly and visually appealing websites. I am currently focused on building my skills in front-end and
-          back-end web development as I work toward becoming a full-fledged developer.</p>
+        <p class="text-gray-400 text-center"> Passionate about web development with a strong interest in creating
+          user-friendly and visually appealing websites. I'm currently focused on improving my front-end and back-end
+          skills to become a full-stack developer.</p>
       </div>
 
       <div class="flex  flex-col w-full sm:flex-row gap-2 justify-center p-5 sm:gap-8">
-        <button type="button"
-          class="focus:outline-none w-[100%] h-[50px] text-white bg-[#fff]   rounded-xl text-xl  sm:w-[200px]  hover:bg-purple-800 font-medium dark:bg-[#2f4eff57]  dark:hover:bg-purple-700">
-          View my work
-        </button>
+        <a href="#project">
+          <button type="button"
+            class="focus:outline-none w-[100%] h-[50px] text-white bg-[#fff]   rounded-xl text-xl  sm:w-[200px]  hover:bg-purple-800 font-medium dark:bg-[#2f4eff57]  dark:hover:bg-purple-700">
+            View my work
+          </button>
+        </a>
+
 
       </div>
     </div>
   </section>
 
   <!-- About -->
-  <section id="about" class=" p-5 md:p-10 lg:p-20 xl:p-40 w-screen h-full  flex justify-start items-start ">
-    <div class="flex flex-col font-medium items-center justify-center w-full ">
+  <section id="about" class=" p-5 md:p-10 lg:p-20 w-screen h-full  flex justify-start items-start ">
+    <div class="flex flex-col font-medium items-center justify-center w-full">
       <h1 class=" text-4xl font-bold text-center  text-white mb-4"> About <span class=" text-[#2f4eff]"> Me
         </span></h1>
       <!-- About Information Conatiner-->
@@ -149,6 +152,9 @@
               <img src="./images/euri-img-modified.png"
                 class=" border-[10px] border-[#2f4eff59]  rounded-[50%] w-[50%] sm:w-[40%] lg:w-[50%] xl:w-[40%]"
                 alt="Flowbite Logo" />
+            </div>
+            <div class="flex w-full justify-center">
+              <h2 class="text-2xl text-white p-1 text-center mb-2 "> Who I am?</h2>
             </div>
 
             <p class="text-center text-gray-400 mb-2">Hi, I'm Eurika Adamos, an aspiring web developer based in Caloocan
@@ -228,22 +234,35 @@
 
         <!-- Github -->
         <div
-          class=" w-[100%] h-full bg-[#24133649] p-7 selection:border-b  border-gray-900  shadow-lg shadow-blue-600/20 rounded-lg">
-          <div class="flex w-full justify-center">
+          class=" w-[100%] h-full bg-[#24133649] p-3 selection:border-b  border-gray-900  shadow-lg shadow-blue-600/20 rounded-lg">
+          <div class="flex w-full justify-center flex-col">
             <h2 class="text-2xl text-white p-1 text-center  "> My GitHub </h2>
+            <p class="text-center text-gray-400 mb-2">This is a record of my personal contributions to my own projects
+              on GitHub, including code commits, project updates, and development progress.</p>
           </div>
 
-          <div class="flex flex-col justify-center items-center w-full h-full  lg:scale-75 ">
-            <a href="https://git.io/streak-stats"><img class="rounded-2xl mb-5"
-                src="https://github-readme-streak-stats.herokuapp.com?user=Somada-yur3k&theme=buefy-dark&hide_border=true&card_width=451"
-                alt="GitHub Streak" />
-            </a>
 
-            <img class="mb-5"
-              src="https://github-readme-stats.vercel.app/api?username=Somada-yur3k&show_icons=true&theme=github_dark"
-              alt="GitHub Stats" />
+          <div class="flex  flex-col justify-start items-center p-2 gap-3  lg:grid lg:grid-cols-2 lg:g-5">
+            <div class=" w-full flex justify-center items-center">
+              <a href="https://git.io/streak-stats"><img class="rounded-2xl mb-5"
+                  src="https://github-readme-streak-stats.herokuapp.com?user=Somada-yur3k&theme=buefy-dark&hide_border=true&card_width=451"
+                  alt="GitHub Streak" />
+              </a>
+            </div>
 
-            <img class=" mb-5 h-[20%]" src="https://ghchart.rshah.org/Somada-yur3k" alt="GitHub Contributions Chart" />
+            <div class=" w-full flex justify-center items-center">
+              <img class="mb-5 w-full"
+                src="https://github-readme-stats.vercel.app/api?username=Somada-yur3k&show_icons=true&theme=github_dark"
+                alt="GitHub Stats" />
+
+            </div>
+
+            <div class=" w-full flex justify-center items-center lg:col-span-2">
+              <img class=" mb-5 h-[20%] xl:w-[100%]" src="https://ghchart.rshah.org/Somada-yur3k"
+                alt="GitHub Contributions Chart" />
+
+            </div>
+
           </div>
 
 
@@ -252,7 +271,7 @@
       </div>
 
       <!-- Skills -->
-      <Section id="skills" class=" p-5 md:p-10 lg:p-20 xl:p-40 w-screen   flex justify-center items-start">
+      <Section id="skills" class=" p-10  lg:p-20 xl:p-40 w-screen   flex justify-center items-start">
         <div
           class=" w-[100%] justify-center   p-5 mb-5  rounded-xl sm:w-[70%] bg-[#24133649]   border  border-gray-900   shadow-lg shadow-blue-600/10  lg:mt-[-50px]  xl:w-[50%] transition-all duration-500   ">
           <h1 class=" text-xl text-white p-1 text-center  lg:text-2xl  "> My Tech Stack </h1>
@@ -261,7 +280,7 @@
 
             <!-- Category Buttons -->
             <div
-              class="flex gap-2 p-2  w-full justify-center mb-5 scale-90 sm:scale-125 md:scale-150  transition-all duration-500">
+              class="flex gap-2 p-2  w-full justify-center mb-5 scale-75 sm:scale-125 md:scale-150  transition-all duration-500">
               <button onclick="filterSkills('all')"
                 class="bg-blue-500 text-white px-4  py-2 hover:bg-purple-800  font-medium rounded-md text-lg  dark:bg-[#2f4eff57]  dark:hover:bg-purple-700 sm:text-xs ">All</button>
               <button onclick="filterSkills('frontend')"
@@ -333,37 +352,112 @@
           </div>
       </Section>
 
+      <!-- Project-->
+      <section id="project" class=" p-5 md:p-10 lg:p-20  w-screen  flex justify-start items-start mb-[10%] lg:h-screen">
+
+        <div
+          class="flex flex-col font-medium items-center justify-start w-full h-full p-5 lg:mt-[-50px] transition-all duration-500">
+
+          <div
+            class=" h-full lex flex-col font-medium items-center justify-center p-3  sm:ml-[20%] sm:mr-[20%] lg:ml-[25%] lg:mr-[25%] xl:ml-[30%] xl:mr-[30%] ">
+            <h1 class=" text-4xl font-bold text-center text-[#2f4eff] mb-4"> My<span class=" text-white"> Projects
+              </span> </h1>
+            <p class="text-gray-400 text-center ">Here are some of the projects I've worked on, showcasing my skills
+              in web development. Each project reflects my dedication to creating functional and visually appealing
+              websites.</p>
+          </div>
+
+
+          <div class=" h-full  flex justify-center items-center gap-5 flex-wrap p-5 lg:p-10 xl:p-20 ">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 w-full xl:gap-8">
+              <!-- Project Card 1 -->
+              <div
+                class="bg-[#24133649] p-5 rounded-lg shadow-lg shadow-blue-600/20 transition-all duration-500 hover:scale-105">
+                <!--Image of Project-->
+                <div class="flex items-center justify-center w-full ">
+                  <img src="./images/diceg.png"
+                    class="shadow rounded-lg overflow-hidden w-full  h-[300px] object-cover">
+                </div>
+                <!-- Project Title and Description -->
+                <div class="mt-8">
+                  <h4 class="font-bold text-xl  text-white ">Dice Game Challenge</h4>
+                  <p class="mt-2 text-gray-600">A personal portfolio website to showcase my skills and projects.</p>
+                  <div class="mt-5">
+                    <a href="">
+                      <button type="button"
+                        class="inline-flex focus:outline-none rounded-md text-white bg-[#fff]  px-3 py-2 text-sm  leading-4 hover:bg-purple-800 font-medium dark:bg-[#2f4eff57]  dark:hover:bg-purple-700">
+                        Github</button>
+                    </a>
+                    <a href="https://dice-game-smoky-alpha.vercel.app/">
+                      <button type="button"
+                        class="inline-flex focus:outline-none rounded-md text-white bg-[#fff]  px-3 py-2 text-sm  leading-4 hover:bg-purple-800 font-medium dark:bg-[#2f4eff57]  dark:hover:bg-purple-700">
+                        Live Demo</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project Card 2 -->
+              <div
+                class="bg-[#24133649] p-5 rounded-lg shadow-lg shadow-blue-600/20 transition-all duration-500 hover:scale-105">
+                <!--Image of Project-->
+                <div class="flex items-center justify-center w-full ">
+                  <img src="./images/cal.png" class="shadow rounded-lg overflow-hidden  h-[300px] object-cover ">
+                </div>
+                <!-- Project Title and Description -->
+                <div class="mt-8">
+                  <h4 class="font-bold text-xl  text-white ">Web app Calculator</h4>
+                  <p class="mt-2 text-gray-600">A personal portfolio website to showcase my skills and projects.</p>
+                  <div class="mt-5">
+                    <a href="">
+                      <button type="button"
+                        class="inline-flex focus:outline-none rounded-md text-white bg-[#fff]  px-3 py-2 text-sm  leading-4 hover:bg-purple-800 font-medium dark:bg-[#2f4eff57]  dark:hover:bg-purple-700">
+                        Github</button>
+                    </a>
+                    <a href="https://calculator-web-swart.vercel.app/">
+                      <button type="button"
+                        class="inline-flex focus:outline-none rounded-md text-white bg-[#fff]  px-3 py-2 text-sm  leading-4 hover:bg-purple-800 font-medium dark:bg-[#2f4eff57]  dark:hover:bg-purple-700">
+                        Live Demo</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project Card 3 -->
+              <div
+                class="bg-[#24133649] p-5 rounded-lg shadow-lg shadow-blue-600/20 transition-all duration-500 hover:scale-105">
+                <!--Image of Project-->
+                <div class="flex items-center justify-center w-full ">
+                  <img src="./images/portfolio-1.png" class="shadow rounded-lg overflow-hidden  h-[300px] object-cover">
+                </div>
+                <!-- Project Title and Description -->
+                <div class="mt-8">
+                  <h4 class="font-bold text-xl  text-white ">Personal Portfolio</h4>
+                  <p class="mt-2 text-gray-600">A personal portfolio website to showcase my skills and projects.</p>
+                  <div class="mt-5">
+                    <a href="">
+                      <button type="button"
+                        class="inline-flex focus:outline-none rounded-md text-white bg-[#fff]  px-3 py-2 text-sm  leading-4 hover:bg-purple-800 font-medium dark:bg-[#2f4eff57]  dark:hover:bg-purple-700">
+                        Github</button>
+                    </a>
+                    <a href="https://euri-somada-dev.vercel.app/">
+                      <button type="button"
+                        class="inline-flex focus:outline-none rounded-md text-white bg-[#fff]  px-3 py-2 text-sm  leading-4 hover:bg-purple-800 font-medium dark:bg-[#2f4eff57]  dark:hover:bg-purple-700">
+                        Live Demo</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </section>
 
-  <!-- Skills -->
-
-  <section id="project" class=" p-5 md:p-10 lg:p-20 xl:p-40 w-screen h-screen flex justify-start items-start mb-[10%] ">
-
-    <div class="flex flex-col font-medium items-center justify-start w-full h-full p-5 lg:mt-[-50px]">
-      <h1 class=" text-4xl font-bold text-center text-[#2f4eff] mb-4"> My<span class=" text-white"> Projects
-        </span> </h1>
 
 
 
-    </div>
-
-
-    </div>
-
-  </section>
-
-  <section id="contact" class=" p-5 md:p-10 lg:p-20 xl:p-40 w-screen h-screen flex justify-start items-start mb-[10%] ">
-
-    <div class="flex flex-col font-medium items-center justify-start w-full h-full p-5 lg:mt-[-50px]">
-      <h1 class=" text-4xl font-bold text-center text-white mb-4"> Contact <span class=" text-[#2f4eff] e"> Me
-        </span> </h1>
-
-
-
-    </div>
-    </div>
-  </section>
 
 
 

@@ -1,19 +1,35 @@
-<di class="">
-          <p class="text-center text-gray-400 mb-2">Aspiring web developer passionate about creating clean,
-            user-friendly,
-            and responsive websites. I'm currently learning the foundations of web development—HTML, CSS, JavaScript,
-            and
-            beyond—and building real-world projects to sharpen my skills.
-          </p>
-        </di>
-
-        <div class="flex  w-full sm:flex-row gap-2 justify-center p-5 sm:gap-8">
-          <button type="button"
-            class="focus:outline-none w-[100%] h-[50px] text-white bg-[#fff] hover:bg-purple-800  font-medium rounded-xl text-xl  sm:w-[200px] dark:bg-[#2f4eff57]  dark:hover:bg-purple-700">
-            Contact Me
-          </button>
-          <button type="button"
-            class=" w-[100%] h-[50px]   text-white text-xl   backdrop-blur-xl font-medium focus:outline-none bg-none rounded-xl shadow-lg border-[1px] shadow-blue-500/5  sm:w-[200px] hover:text-blue-700 focus:z-10   dark:border-sky-600 dark:hover:text-white dark:hover:bg-blue-700">
-            Download CV
-          </button>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-5 justify-center items-center ">
+      <a class="p-5 max-w-lg  rounded-2xl flex flex-col items-center bg-[#24133649]   border  border-gray-900   shadow-lg shadow-blue-600/10 "
+        href="#">
+        <div class="flex items-center justify-center w-full ">
+          <img src="./images/diceg.png" class="shadow rounded-lg overflow-hidden ">
         </div>
+        
+        <div class="mt-8">
+          <h4 class="font-bold text-xl  text-white ">Dice Game Challenge</h4>
+          <p class="mt-2 text-gray-600">A personal portfolio website to showcase my skills and projects.</p>
+          <div class="mt-5">
+            <button type="button"
+              class="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900">View
+              Project</button>
+          </div>
+        </div>
+      </a>
+      <a class="p-5 max-w-lg  rounded-2xl flex flex-col items-center bg-[#24133649]   border  border-gray-900   shadow-lg shadow-blue-600/10 "
+        href="#">
+        <div class="flex items-center justify-center w-full ">
+          <img src="./images/diceg.png" class="shadow rounded-lg overflow-hidden ">
+        </div>
+        
+        <div class="mt-8">
+          <h4 class="font-bold text-xl  text-white ">Web A Calculator</h4>
+          <p class="mt-2 text-gray-600">A personal portfolio website to showcase my skills and projects.</p>
+          <div class="mt-5">
+            <button type="button"
+              class="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900">View
+              Project</button>
+          </div>
+        </div>
+      </a>
+
+    </div>
