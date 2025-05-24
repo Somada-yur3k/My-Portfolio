@@ -1,0 +1,35 @@
+
+#typing-container {
+  overflow: hidden; /* Prevent horizontal scroll */
+
+  max-width: 100%; /* Ensure it fits within screen */
+}
+
+#typing-container span {
+  
+  position: relative;
+  display: inline-block;
+  white-space: nowrap; /* Keep text on one line */
+}
+
+#typing-container span::after {
+  content: '';
+  display: inline-block;
+  background-color: #0d0416;
+  width: 100%;
+  height: 100%;
+  border-left: 2px solid #ffffff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation: typing 4s steps(10) infinite;
+}
+
+@keyframes typing {
+  40%, 60% {
+    left: 100%; /* no extra 20px to avoid overflow */
+  }
+  100% {
+    left: 0;
+  }
+}
