@@ -1,3 +1,4 @@
+// Typing Effect Functionality
 const typingElement = document.getElementById("typing");
 const words = ["Web Developer   ",];
 let wordIndex = 0;
@@ -29,6 +30,7 @@ function type() {
   setTimeout(type, typingSpeed);
 }
 
+// Skill Filter Functionality
 document.addEventListener("DOMContentLoaded", () => {
   typingElement.textContent = "";
   type();
@@ -44,3 +46,8 @@ function filterSkills(category) {
     }
   });
 }
+
+// Message Success Alert
+document.addEventListener("DOMContentLoaded", function(event) {
+  document.getElementById('successButton').click();
+});
